@@ -1,0 +1,80 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(199, 241, 227);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 35%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9dvh;
+    font-weight: bolder;
+    font-style: oblique;
+    font-variant: small-caps;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.btn1 {
+    padding: 10px;
+    background-color: rgb(230, 218, 166);
+    border-radius: 2px solid black;
+    margin: 01px 24px;
+    float: left;
+    width: 110px;
+    cursor: pointer;
+}
+.progress-container {
+    width: 180%;
+    background-color: #f0f0f0;
+    /* margin: 10px; */
+}
+
+.progress-bar {
+    width: 0%;
+    height: 15px;
+    background-color: #4caf50;
+    text-align: center;
+    /* line-height: 10px; */
+    color: white;
+    margin: 10px;
+}
+.container{
+    height: 450px;
+    width: 600px;
+    background-color: rgb(170, 159, 145);
+    border-radius: 2px;
+    margin: 100px auto;
+    padding: 12px;
+}
+img{
+    float: right;
+    margin: 108px 68px 24px 32px;;
+}

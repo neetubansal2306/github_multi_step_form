@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: beige; */
+    height: 100%;
+    width: 100%;
+    background-color: rgb(199, 241, 227);
+}
+
+.container {
+    height: 400px;
+    width: 500px;
+    background-color: rgb(170, 159, 145);
+    border-radius: 2px;
+    margin: 100px auto;
+
+}
+
+h2 {
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+form label {
+    display: grid;
+    padding: 15px;
+    margin: 0px 15px;
+    font-size: larger;
+}
+
+input {
+    padding: 5px;
+    margin: 0px 15px;
+    display: grid;
+}
+
+.btn {
+    padding: 10px;
+    background-color: rgb(142, 142, 197);
+    border-radius: 2px solid black;
+    margin: 20px 60px;
+    float: right;
+    width: 110px;
+    cursor: pointer;
+}
+
+.btn a {
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.btn a:hover {
+    color: brown;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    background-color: chartreuse;
+}
+
+/* .progressbar{
+    height: 5px;
+    width: 100%;
+    background-color: red;
+    position: relative;
+    margin: 5px;
+    transform: translate(10px);
+} */
+
+.progress-container {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 15px;
+    background-color: #4caf50;
+    text-align: center;
+    /* line-height: 10px; */
+    color: white;
+    margin: 10px;
+}
